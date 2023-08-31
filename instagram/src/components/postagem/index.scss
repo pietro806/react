@@ -1,0 +1,105 @@
+
+.comp-postagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > hr {
+        margin-bottom: 70px;
+    }
+    .detalhes1 {
+        width: 500px;
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        padding: 0px 15px;
+        .usuario {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 12px;
+                margin-top: 3px;
+            }
+            h5 {
+                font-size: 16px;
+                color: white;
+                font-weight: 500
+            }
+        }
+        .tempo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color: #8f8c8c;
+            margin-top: 1px;
+            div {
+                width: 5px;
+                height: 5px;
+                border-radius: 30px;
+                background-color: #8f8c8c;
+                margin: 0px 5px;
+            }
+            h2 {
+                font-size: 15px;
+                font-weight: 500;
+
+            }
+        }
+        > img {
+            width: 45px;
+            height: 45px;
+            border-radius: 35px;
+            margin-right: 15px;
+        }
+    }
+
+    .img {
+        img {
+            width: 470px;
+            height: 350px;
+            margin-top: 20px;
+        }
+    }
+
+    .reacoes {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 470px;
+        .imgs {
+            img {
+                width: 25px;
+                margin-right: 10px;
+            }
+        }
+
+        .curtidas {
+            display: flex;
+            color: white;
+            gap: 5px;
+            h5 {
+                font-weight: 400
+            }
+        }
+
+        .info {
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 5px;
+            h5 {
+                font-weight: 500
+            }
+        }
+    }
+
+    > hr {
+        width: 470px;
+        height: 3px;
+        border-color: #757070;
+        margin-top: 30px
+    }
+}

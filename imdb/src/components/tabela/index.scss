@@ -1,0 +1,78 @@
+.comp-tabela {
+    table {
+        width: 100%;
+        padding: 0px 25px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        thead {
+            display: flex;
+            width: 100%;
+            color: #C5BD4D;
+            tr {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                padding: 10px 90px 10px 5px;
+            }
+        }
+
+        tbody {
+            max-width: 1200px;
+            width: 100%;
+            overflow: scroll;
+            overflow-x: hidden;
+            height: 45vh;
+            padding-right: 10px;
+            .tr {
+                width: 100%;
+                padding: 5px 0px;
+                display: flex;
+                position: relative;
+                div td {
+                    font-size: 13px;
+
+                }
+
+                div {
+                    width: 98%;
+                    height: 45px;
+                    padding: 10px 60px 10px 5px;
+                    display: flex;
+                    gap: 30px;
+                    justify-content: space-between;
+                }
+            }
+        }
+        tbody::-webkit-scrollbar{
+            background-color: transparent;
+            width: 13px;
+        }
+        tbody::-webkit-scrollbar-thumb{
+            background-color: gray;
+            border-radius: 30px;
+        }
+        .tr:hover {
+                div {
+                    background-color: #C5BD4D;
+                    color: white;
+                    border-radius: 10px;
+                }
+                img {
+                    display: flex;
+                    right: 0px;
+                    bottom: 0px;
+                    border-radius: 30px;
+                    border: 2px solid #C5BD4D;
+                }
+            }
+    }
+    
+    img {
+        width: 52px;
+        height: 52px;
+        display: none;
+        position: absolute;
+
+    }
+}

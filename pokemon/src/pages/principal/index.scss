@@ -1,0 +1,81 @@
+.pag-principal {
+    height: 100%;
+    main {
+        background-image: linear-gradient(to right, #9A99C6 , #C699B2  );
+        max-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        width: 100%;
+        .conteudo {
+            padding: 100px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: start;
+            width: 1450px;
+            height: 100%;
+
+            header {
+                display: flex;
+                padding: 20px 0px;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                gap: 10px;
+                div {
+                    display: flex;
+
+                    input {
+                        border: none;
+                        outline: none;
+                        color: white;
+                        background-color: #33363A;
+                        border-radius: 30px;
+                        padding-left: 15px;
+                    }
+                    input::placeholder {
+                        color: white;
+                    }
+                }
+                button {
+                    background-color: #7760CB;
+                    width: 180px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 30px;
+                    color: white;
+                    cursor: pointer;
+                    font-size: 15px
+                }
+            }
+
+            .catalogo {
+                padding: 40px 75px 40px 75px !important;
+                display: flex;
+                gap: 30px;
+                flex-wrap: wrap;      
+            }
+            > article  {
+                padding: 30px 0px ;
+                button {
+                    width: 180px;
+                    height: 40px;
+                    background-color: rgba(#33363A, 0.71);
+                    color: white;
+                    border-radius: 25px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .empty {
+            height: 389px;
+        }
+
+    }
+    
+}

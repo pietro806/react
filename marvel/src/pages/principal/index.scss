@@ -1,0 +1,86 @@
+.pag-principal {
+    main {
+        background-image: linear-gradient( to bottom, #8BA9BE 60%, #363535 );
+        height: 941px;
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: center;
+            div {
+                display: flex;
+                align-items: center;
+                gap: 45px
+            }
+        }
+
+        .s1 {
+            margin-top: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            padding: 10px 300px;
+            gap: 30px;
+            margin-bottom: 50px;
+            article{
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgba(#fff, 0.3);
+                    padding: 0px 12px;
+                    gap: 15px;
+                    width: 250px;
+                    border-radius: 30px;
+                    height: 35px;
+                    input {
+                        border: none;
+                        outline: none;
+                        background-color: transparent;
+                    }
+                }
+            }
+            .info {
+                padding-top: 20px;
+            }
+            h1 {
+                color: #43515A;
+                font-size: 55px;
+                text-align: end;
+                width: 400px;
+            }
+            p {
+                width: 370px;
+                margin-bottom: 25px;
+                font-size: 17.5px;
+                font-weight: 600;
+                color: #43515A;
+            }
+        }
+
+        .catalogo{
+            margin: 0px 100px;
+            padding: 0px 0px 20px 0px ;
+            height: 470px;
+            overflow: scroll;
+            display: flex;
+            align-items: end;
+            gap: 30px;
+            position: relative;
+            overflow-y: hidden;
+        }
+        .catalogo::-webkit-scrollbar {
+            height: 13px;
+            background-color: transparent;
+        }
+        .catalogo::-webkit-scrollbar-thumb {
+            background-color: #363535;
+            border-radius: 35px;
+        }
+    }
+}

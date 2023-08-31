@@ -1,0 +1,144 @@
+.pag-principal {
+    .pag {
+        max-height: 100%;
+        .s1 {
+            position: relative;
+            padding: 20px;
+            background-image: url("../../../public/assets/images/friends.png");   
+            background-size: 100%;
+            width: 100%;
+            height: 50%;
+            background-repeat: no-repeat;
+            header {
+                display: flex;
+                background-color: transparent;
+                flex-direction: row;
+                justify-content: space-between;
+                .pt-1 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    background-color: transparent;
+                    .imgs {
+                        width: 100px;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        .logo {
+                            width: 150px;
+                            height: 30px;
+                        }
+                        img {
+                            width: 90px;
+                            height: 15px;
+                        }
+                    }
+                    article {
+                        display: flex;
+                        flex-direction: row;
+                    }
+
+                    .p {
+                        color: white;
+                        gap:10px;
+                        margin-left: 45px;
+                        font-size: 14px;
+                    }
+                }
+
+                .pt-2 {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+                    align-items: center;
+                    .input {
+                        color: rgb(204, 203, 203);
+                        border: 2px solid rgb(153, 148, 148);
+                        display: flex;
+                        align-items: center;
+                        padding: 0px 5px;
+                        width: 350px;
+                        justify-content: space-between;
+                        img {
+                            width: 18px;
+                            height: 18px
+                        }
+                        input {
+                            background-color: transparent;
+                            border: none;
+                            outline: none;
+                            color: white;
+                        }
+                        input::placeholder {
+                            color: rgb(204, 203, 203);
+                        }
+                    }
+                    article {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 15px;
+                        height: 30px;
+                        p {
+                            color: rgb(204,203,203);
+                        }
+                        .img {
+                            width: 40px;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            > article {
+                color: white;
+                margin-top: 110px;
+
+                padding: 100px 55px;
+                h1 {
+                    font-size: 60px;
+                    font-weight: bold;
+                    margin-top: 110px;
+                }
+                p {
+                    width:350px;
+                }
+                button {
+                    color: black;
+                    width: 150px;
+                    height: 30px;
+                    font-weight: 600;
+                    margin-top: 20px;
+                }
+            }
+
+            > aside {
+                height: 120px;
+            }
+        }
+        .s2 {
+            position: absolute;
+            background-image: linear-gradient(to top, #000, #000 86%, transparent );
+            margin-bottom: 150px;
+            width: 100%;
+            top: 700px;
+            padding: 30px 30px;
+            h3 {
+                color: white;
+                margin: 0px 0px 15px 20px;
+            }
+            > div {
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                flex-wrap: wrap;
+                img {
+                    width:292px;
+                    height: 438px;
+                }
+            }
+        }
+    
+        
+    }
+}

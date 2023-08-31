@@ -1,0 +1,87 @@
+.pag-home {
+  height: 837px;
+  main {
+    background-color: rgb(179, 179, 179);
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    section {
+      background-color: white;
+      width: 750px;
+      height: 500px;
+      display: flex;
+      .detalhes {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        width: 325px;
+        height: 500px;
+        padding: 0px 30px;
+        > section {
+          width: 320px;
+          height: 30px;
+          margin-top: 15px;
+          gap: 20px;
+        }
+        input {
+          width: 290px;
+          outline: none;
+          height: 30px
+        }
+        .quebra {
+          display: flex;
+          .primeira {
+            margin-right: 20px;
+          }
+          div {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+          }
+          input {
+            width: 132px;
+          }
+          margin-bottom: 30px;
+        }
+         button {
+          background-color: rgb(43, 109, 231);
+          color: white;
+          width: 320px;
+          height: 30px;
+          margin-bottom: 30px;
+          border: none;
+        }
+      }
+
+      .img {
+        background-color: gray;
+        width: 375px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 250px;
+        }
+        
+      }
+
+      .resultados {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        height: 30px;
+        margin-bottom: 10px;
+        gap: 15px;
+        h4 {
+          margin: 0px;
+        }
+        p {
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
